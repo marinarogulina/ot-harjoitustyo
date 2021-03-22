@@ -1,0 +1,113 @@
+commit df7dce5cb3686001fd7ec01c16925b361889d961
+Author: Marina Rogulina <marina.rogulina02@gmail.com>
+Date:   Mon Mar 22 19:43:05 2021 +0200
+
+    file1 poistettu ja file2 nimeä muutettu file22
+
+ tiedostoja/file2             | 0
+ tiedostoja/{file1 => file22} | 0
+ 2 files changed, 0 insertions(+), 0 deletions(-)
+
+commit 4d65d285a70f0076e0815b98b874a94c87934aa9
+Author: Marina Rogulina <marina.rogulina02@gmail.com>
+Date:   Mon Mar 22 19:29:59 2021 +0200
+
+    tiedostoja luotu
+
+ tiedostoja/file1 | 0
+ tiedostoja/file2 | 0
+ tiedostoja/file3 | 0
+ 3 files changed, 0 insertions(+), 0 deletions(-)
+
+commit 991b142654165f6ffd5d3e13f41c23031713b49d
+Author: Marina Rogulina <marina.rogulina02@gmail.com>
+Date:   Mon Mar 22 19:18:20 2021 +0200
+
+    muokattu eka.txt ja kolmas.txt
+
+ eka.txt    | 5 ++++-
+ kolmas.txt | 2 +-
+ 2 files changed, 5 insertions(+), 2 deletions(-)
+
+commit ca3e03e1cf245d5e985aa9f0c433f8eda3f8778e
+Author: Marina Rogulina <marina.rogulina02@gmail.com>
+Date:   Mon Mar 22 18:16:47 2021 +0200
+
+    tiedosto.txt nimi muutettu eka.txt
+
+ tiedosto.txt => eka.txt | 0
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+
+commit 5ba8b949635d85b3cc46ba797ef4d54899a7f744
+Author: Marina Rogulina <marina.rogulina02@gmail.com>
+Date:   Mon Mar 22 18:14:38 2021 +0200
+
+    toinen.txt poistettu
+
+ toinen.txt | 1 -
+ 1 file changed, 1 deletion(-)
+
+commit 3c448e30fd11e552f468b77c776117b57033e74e
+Author: Marina Rogulina <marina.rogulina02@gmail.com>
+Date:   Mon Mar 22 18:11:29 2021 +0200
+
+    muokattu tiedosto.txt
+
+ tiedosto.txt | 20 +++++++++++++++++---
+ 1 file changed, 17 insertions(+), 3 deletions(-)
+
+commit fd436ae4b44721a3dd522ba55aeeef880d15c187
+Author: Marina Rogulina <marina.rogulina02@gmail.com>
+Date:   Mon Mar 22 18:09:21 2021 +0200
+
+    muokattu tiedosto.txt
+
+ tiedosto.txt | 16 +++++++++++++++-
+ 1 file changed, 15 insertions(+), 1 deletion(-)
+
+commit c8ce0d7efdc41e825545f5b8ef5e1ff902d04c8c
+Author: Marina Rogulina <marina.rogulina02@gmail.com>
+Date:   Mon Mar 22 17:51:06 2021 +0200
+
+    stuff lisätty
+
+ stuff/uusi.txt | 0
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+
+commit 530cbf23e602e087d91637490621c2ad492848cb
+Author: Marina Rogulina <marina.rogulina02@gmail.com>
+Date:   Mon Mar 22 17:48:43 2021 +0200
+
+    muokattu toinen.txt ja kolmas.txt
+
+ kolmas.txt | 1 +
+ toinen.txt | 1 +
+ 2 files changed, 2 insertions(+)
+
+commit 6fb6a002befbca15eefd46d0dd1e52ecc0655892
+Author: Marina Rogulina <marina.rogulina02@gmail.com>
+Date:   Mon Mar 22 17:46:53 2021 +0200
+
+    kolmas.txt luotu
+
+ kolmas.txt | 0
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+
+commit 48939df14d0aa701e21cbd48104241b7231c6c18
+Author: Marina Rogulina <marina.rogulina02@gmail.com>
+Date:   Mon Mar 22 17:17:44 2021 +0200
+
+    muutos ja lisäys
+
+ tiedosto.txt | 1 +
+ toinen.txt   | 0
+ 2 files changed, 1 insertion(+)
+
+commit 8427852b79af30a654888c122a3ed4b91ab9245f
+Author: Marina Rogulina <marina.rogulina02@gmail.com>
+Date:   Mon Mar 22 17:13:38 2021 +0200
+
+    tiedosto.txt luotu
+
+ tiedosto.txt | 0
+ 1 file changed, 0 insertions(+), 0 deletions(-)
