@@ -1,46 +1,46 @@
-#Vaatimusmäärittely
+# Vaatimusmäärittely
 
-##Sovelluksen tarkoitus
+## Sovelluksen tarkoitus
 
-Sovelluksessa käyttäjällä on käytössään oma salainen päivä- tai muistikirja, johon pääsee itse asettaman salasanan avulla.
+Sovelluksessa käyttäjällä on käytössään oma salainen päivä- tai muistikirja, johon pääsee itse asettaman salasanan avulla. Sovelluksen alkunäkymässä toimii laskin.
 
-##Käyttäjäroolit
+## Käyttäjäroolit
 
 Sovelluksessa on vain yksi käyttäjärooli: normaali käyttäjä. Myöhemmin sovellukseen voisi ehkä lisätä pääkäyttäjän.
 
-##Toiminnallisuus
+## Toiminnallisuus
 
-###Ennen kirjautumista
+### Ennen kirjautumista
 
-*Alkunäkymässä näkyy laskin
+* Alkunäkymässä näkyy laskin
 
-*Käyttäjä voi ensimmäisellä kerralla luoda salasanan
+* Käyttäjä voi ensimmäisellä kerralla luoda salasanan
 
-	*Salasanan täytyy olla vähintään neljä merkkiä pitkä
+	* Salasanan täytyy olla vähintään neljä merkkiä pitkä
 
-*Käyttäjä voi kirjautua järjestelmään
+* Käyttäjä voi kirjautua järjestelmään
 
-	*Käyttäjä syöttää salasanan ja painaa prosenttinäppäintä, jolloin päiväkirjanäkymä avautuu
+	* Käyttäjä syöttää salasanan ja painaa prosenttinäppäintä, jolloin päiväkirjanäkymä avautuu
 
-###Kirjautumisen jälkeen
+### Kirjautumisen jälkeen
 
-*Käyttäjä näkee omat päiväkirjamerkintänsä aikajärjestyksessä (uusin ensin)
+* Käyttäjä näkee omat päiväkirjamerkintänsä aikajärjestyksessä (uusin ensin)
 
-*Käyttäjä voi luoda uuden merkinnän
+* Käyttäjä voi luoda uuden merkinnän
 
-*Uloskirjautuminen tapahtuu sulkemalla ohjelmiston
+* Uloskirjautuminen tapahtuu sulkemalla ohjelmiston
 
-##Jatkokehitysideat
+## Jatkokehitysideat
 
 Perustoiminnallisuuden toteuttamisen jälkeen järjestelmää voidaan täydentää esimerkiksi seuraavilla toiminnallisuuksilla
 
 
-*Kuvien lisääminen päiväkirjamerkintöihin
+* Kuvien lisääminen päiväkirjamerkintöihin
 
-*Tekstieditorin parantaminen
+* Tekstieditorin parantaminen
 
-*Salasanan vaihtaminen
+* Salasanan vaihtaminen
 
-*Useamman käyttäjän mahdollisuus
+* Useamman käyttäjän mahdollisuus
 
-*Käyttäjätunnuksen poistaminen
+* Käyttäjätunnuksen poistaminen
