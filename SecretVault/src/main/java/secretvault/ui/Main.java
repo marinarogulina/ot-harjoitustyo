@@ -1,7 +1,9 @@
-import java.util.*;
+package secretvault.ui;
+
+import secretvault.domain.Calculator;
 import java.util.Scanner;
 
-public class SecretVault {
+public class Main {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         Calculator calculator = new Calculator();
