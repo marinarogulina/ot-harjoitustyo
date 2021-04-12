@@ -19,3 +19,13 @@
 [KassapaateTest.java](https://github.com/marinarogulina/ot-harjoitustyo/blob/master/laskarit/viikko2/Unicafe/src/test/java/com/mycompany/unicafe/KassapaateTest.java)
 
 [kattavuusraportti.png](https://github.com/marinarogulina/ot-harjoitustyo/blob/master/laskarit/viikko2/kattavuusraportti.png)
+
+### Viikko 3
+
+[teht1.jpg](https://github.com/marinarogulina/ot-harjoitustyo/blob/master/laskarit/viikko3/teht1.jpg)
+
+[teht2.jpg](https://github.com/marinarogulina/ot-harjoitustyo/blob/master/laskarit/viikko3/teht2.jpg)
+
+[teht3.jpg](https://github.com/marinarogulina/ot-harjoitustyo/blob/master/laskarit/viikko3/teht3.jpg)
+
+[teht4.jpg](https://github.com/marinarogulina/ot-harjoitustyo/blob/master/laskarit/viikko3/teht4.jpg)
