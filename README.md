@@ -7,3 +7,5 @@ Sovelluksessa pystyy kirjoittamaan merkintöjä, joita vain tietty käyttäjä p
 [Vaatimusmäärittely](https://github.com/marinarogulina/ot-harjoitustyo/blob/master/dokumentaatio/vaatimusmaarittely.md)
 
 [Työaikakirjanpito](https://github.com/marinarogulina/ot-harjoitustyo/blob/master/dokumentaatio/tuntikirjanpito.md)
+
+[Arkkitehtuurikuvaus](https://github.com/marinarogulina/ot-harjoitustyo/blob/master/dokumentaatio/arkkitehtuuri.md)
