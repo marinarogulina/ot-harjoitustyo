@@ -2,12 +2,8 @@ package secretvault.ui;
 
 import secretvault.domain.Calculator;
 import java.util.Scanner;
-import java.util.HashSet;
-import java.util.Set;
 import javafx.application.Application;
 import javafx.scene.Scene;
-import javafx.scene.control.Label;
-import javafx.scene.layout.FlowPane;
 import javafx.stage.Stage;
 import javafx.scene.layout.VBox;
 import javafx.scene.layout.StackPane;
@@ -19,18 +15,19 @@ public class SecretVaultUI extends Application {
     @Override
     public void start(Stage stage) {
         VBox layout = new VBox();
-        layout.setPrefWidth(300);
-        layout.setPrefHeight(300);
-        layout.setSpacing(10);
+        layout.setPrefWidth(300.0);
+        layout.setPrefHeight(300.0);
+        layout.setSpacing(10.0);
         
         StackPane top = new StackPane();
-        top.setPrefHeight(50);
-        top.setPrefWidth(200);
+        top.setPrefHeight(50.0);
+        top.setPrefWidth(200.0);
         layout.getChildren().add(top);
         
         HBox hbox = new HBox();
-        hbox.setPrefHeight(50);
-        hbox.setPrefWidth(300);
+        hbox.setPrefHeight(50.0);
+        hbox.setPrefWidth(300.0);
+        hbox.setSpacing(10.0);
         Button button = new Button();
         hbox.getChildren().add(button);
         layout.getChildren().add(hbox);
