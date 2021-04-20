@@ -11,14 +11,29 @@ import javafx.scene.layout.FlowPane;
 import javafx.stage.Stage;
 import javafx.scene.layout.VBox;
 import javafx.scene.layout.StackPane;
+import javafx.scene.layout.HBox;
+import javafx.scene.control.Button;
 
 public class SecretVaultUI extends Application {
     
     @Override
     public void start(Stage stage) {
         VBox layout = new VBox();
-        layout.setPrefSize(300, 300);
-        layout.getChildren().add(new StackPane());
+        layout.setPrefWidth(300);
+        layout.setPrefHeight(300);
+        layout.setSpacing(10);
+        
+        StackPane top = new StackPane();
+        top.setPrefHeight(50);
+        top.setPrefWidth(200);
+        layout.getChildren().add(top);
+        
+        HBox hbox = new HBox();
+        hbox.setPrefHeight(50);
+        hbox.setPrefWidth(300);
+        Button button = new Button();
+        hbox.getChildren().add(button);
+        layout.getChildren().add(hbox);
         
         Scene scene = new Scene(layout);
         stage.setScene(scene);
