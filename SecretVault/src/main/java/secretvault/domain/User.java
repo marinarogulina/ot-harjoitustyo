@@ -5,7 +5,7 @@ import java.util.*;
 
 
 public class User {
-    private ArrayList<DiaryEntry> diaryEntries;
+    final ArrayList<DiaryEntry> diaryEntries;
     private String passcode;
     
     public User() {

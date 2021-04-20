@@ -10,6 +10,7 @@ import javafx.scene.control.Label;
 import javafx.scene.layout.FlowPane;
 import javafx.stage.Stage;
 import javafx.scene.layout.VBox;
+import javafx.scene.layout.StackPane;
 
 public class SecretVaultUI extends Application {
     
@@ -17,16 +18,19 @@ public class SecretVaultUI extends Application {
     public void start(Stage stage) {
         VBox layout = new VBox();
         layout.setPrefSize(300, 300);
+        layout.getChildren().add(new StackPane());
         
-        
+        Scene scene = new Scene(layout);
+        stage.setScene(scene);
+        stage.show();
     }
     
     @Override
     public void stop() {
-        
+        System.out.println("Sovellus sulkeutuu...");
     }
     
     public static void main(String[] args) {
         launch(args);
-    }    
+    }
 }
