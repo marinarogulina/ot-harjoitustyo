@@ -1,10 +1,7 @@
 package secretvault.domain;
 
 
-import java.util.*;
-
 public class Calculator {
-    Scanner scanner = new Scanner(System.in);
     
     public int calculate(int num1, int num2, String operation) {
         int answer = 0;

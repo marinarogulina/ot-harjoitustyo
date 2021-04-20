@@ -23,6 +23,7 @@ public class User {
     
     public void writeNewEntry() {
         DiaryEntry entry = new DiaryEntry();
+        diaryEntries.add(entry);
         //TODO
     }
     

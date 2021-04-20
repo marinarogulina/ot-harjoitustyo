@@ -50,4 +50,12 @@ public class DiaryEntryTest {
         diaryentry.setTitle("New Entry");
         assertEquals("New Entry", diaryentry.getTitle());
     }
+    
+    @Test
+    public void writing() {
+        diaryentry.write("Dear Diary...");
+        assertEquals("Dear Diary...", diaryentry.getText());
+    }
+    
+    
 }
