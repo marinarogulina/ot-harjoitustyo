@@ -43,22 +43,22 @@ public class CalculatorTest {
     // public void hello() {}
     
     @Test
-    public void yhteenlasku() {
+    public void addition() {
         assertEquals(15, calculator.calculate(num1, num2, "+"));
     }
     
     @Test
-    public void vahennyslasku() {
+    public void subtraction() {
         assertEquals(5, calculator.calculate(num1, num2, "-"));
     }
     
     @Test
-    public void kertolasku() {
+    public void multiplication() {
         assertEquals(50, calculator.calculate(num1, num2, "*"));
     }
     
     @Test
-    public void jakolasku() {
+    public void division() {
         assertEquals(2, calculator.calculate(num1, num2, "/"));
     }
 }

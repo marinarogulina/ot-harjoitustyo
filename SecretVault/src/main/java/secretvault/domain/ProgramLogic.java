@@ -1,4 +1,4 @@
-package secretvault.ui;
+package secretvault.domain;
 
 
 public class ProgramLogic {

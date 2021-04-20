@@ -20,4 +20,11 @@ public class DiaryEntry {
         this.text += text;
     }
     
+    public void setTitle(String title) {
+        this.title = title;
+    }
+    
+    public String getTitle() {
+        return this.title;
+    }
 }
