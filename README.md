@@ -9,3 +9,5 @@ Sovelluksessa pystyy kirjoittamaan merkintöjä, joita vain tietty käyttäjä p
 [Työaikakirjanpito](https://github.com/marinarogulina/ot-harjoitustyo/blob/master/dokumentaatio/tuntikirjanpito.md)
 
 [Arkkitehtuurikuvaus](https://github.com/marinarogulina/ot-harjoitustyo/blob/master/dokumentaatio/arkkitehtuuri.md)
+
+[Ensimmäinen release](https://github.com/marinarogulina/ot-harjoitustyo/releases/tag/viikko5)
