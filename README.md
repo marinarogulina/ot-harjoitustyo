@@ -6,6 +6,13 @@ Sovelluksessa pystyy kirjoittamaan merkintöjä, joita vain tietty käyttäjä p
 
 Ohjelma tulee suorittaa Main-luokasta. Tällä hetkellä ohjelman suorituksessa avautuu graafinen ikkuna, mutta mitään toiminnallisuutta ei ole vielä saatavilla.
 
+Komentorivillä pystyy suorittamaan seuraavat toiminnot:
+
+- mvn compile exec:java -Dexec.mainClass=secretvault.ui.Main (suorittaa koodin)
+- mvn test jacoco:report (tekee testiraportin)
+- mvn package (generoi jar-tiedoston)
+- mvn jxr:jxr checkstyle:checkstyle (suorittaa Checkstylen)
+
 ## Dokumentaatio
 
 [Vaatimusmäärittely](https://github.com/marinarogulina/ot-harjoitustyo/blob/master/dokumentaatio/vaatimusmaarittely.md)
