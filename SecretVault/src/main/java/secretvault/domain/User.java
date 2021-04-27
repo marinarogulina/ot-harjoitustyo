@@ -21,6 +21,10 @@ public class User {
         this.passcode = code;
     }
     
+    public ArrayList<DiaryEntry> getEntries() {
+        return this.diaryEntries;
+    }
+    
     public void writeNewEntry() {
         DiaryEntry entry = new DiaryEntry();
         diaryEntries.add(entry);

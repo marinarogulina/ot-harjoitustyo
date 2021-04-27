@@ -17,6 +17,7 @@ import static org.junit.Assert.*;
  * @author rozmarin
  */
 public class UserTest {
+    User user;
     
     public UserTest() {
     }
@@ -31,6 +32,7 @@ public class UserTest {
     
     @Before
     public void setUp() {
+        user = new User();
     }
     
     @After
@@ -45,6 +47,18 @@ public class UserTest {
     
     @Test
     public void creatingNewUser() {
-        
+        assertEquals("", user.getPasscode());
+    }
+    
+    @Test
+    public void settingThePasscode() {
+        user.setPasscode("1234");
+        assertEquals("1234", user.getPasscode());
+    }
+    
+    @Test
+    public void addsNewEntryToTheList() {
+        user.writeNewEntry();
+        assertEquals(1, user.getEntries().size());
     }
 }
